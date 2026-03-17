@@ -1,5 +1,6 @@
 # AES
 an AES implementation i made while bored at 16 years old.
+
 The entire implementation was made in C, and includes:
   128, 192, 258 modes,
   decryption and encryption,
@@ -7,6 +8,7 @@ The entire implementation was made in C, and includes:
   galois field arithmetic,
   round key generation.
 with a library layer on top.
+
 issues:
   CTR is ennumed but not implemented,
   rand() is used for a random key, which is not secure cryptographically.
