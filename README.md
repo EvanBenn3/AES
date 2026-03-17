@@ -2,7 +2,7 @@
 an AES implementation i made while bored at 16 years old.
 
 The entire implementation was made in C, and includes:
-  128, 192, 258 modes,
+  128, 192, 256 modes,
   decryption and encryption,
   ECB and CBC block modes,
   galois field arithmetic,
