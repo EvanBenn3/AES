@@ -11,4 +11,8 @@ issues:
   CTR is ennumed but not implemented,
   rand() is used for a random key, which is not secure cryptographically.
 
-compilation is trivial, it's a basic command that simply combines all of the source files into a library file, of which can be linked against.
+Compile Instructions:
+1. compile each .c file in the src folder into its .o file in the bin folder (create bin if it doesn't exist)
+2. compile all the .o files in bin into a file called 'libaes.a' inside a lib folder (create lib if needed) using ar
+3. linking against libaes.a works the same as any other library, e.g.:
+   gcc main.c -Llib -laes -o aes.exe
